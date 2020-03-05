@@ -15,8 +15,6 @@ The flask app is airbnb_app.py. We are using it to render on landing2.html with 
 ### Limitations
 Some of the primary limitations we found with our datasets were that the AirBNB, Home Listing Values and Rental Values had different amounts of neighborhood data. For example, the rental data had twice as many listed neighborhoods. In addition, some of the data was unavailable for some of the months listed and reflects as zero. It was also pointed out that reviewing this as a mean or median listing can be difficult given that each neighborhood has a different number of rentals and listings. We realized a time series line chart would not work given the dozens of neighborhoods we found as well.
 
-We wanted to be able to host our project on Heroku, however, the size of our Postgres database was too large for a free database through Heroku.  We attempted to change how the data is stored and limit the rows to be able to add to Heroku, however, time limitations prevented us from being able to finish this aspect.
-
 ### After Action Review
 
 One area to improve would be to clean or remove all the data which has a value of zero. In addition, we would add a slider to the AirBNB Listing v Rent/Own chart.
