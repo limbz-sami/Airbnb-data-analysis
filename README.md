@@ -1,5 +1,6 @@
-# Creative-Viz-Project
 ## Airbnb data exploration -Portland, OR
+Live website [here](https://bootcampe-project2.herokuapp.com/)
+
 ### Overview
 Our goal was to show a breakdown by neighborhood of AirBNB listings by review and mean cost through a series of charts. We aimed to show this as a time series from 2015-19. In addition, our original goal was to show the time series relationship by neighborhood with the long-term rental and home values on this time set. We would do this by creating a SQL database, use a flask app to jsonify the data and then read the data through D3 into charts through a website. Our goal was to also create a leaflet map as well to show clusters by neighborhood of the number of reviews by neighborhood.
 
